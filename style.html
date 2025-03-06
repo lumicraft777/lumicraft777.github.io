@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品販売サイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <!-- ヘッダーロゴ -->
+        <div class="logo">
+            <img src="img1.png" alt="img1">
+        </div>
+        <div class="background">新たな時代へ</div>
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input id="drawer_input" class="drawer_hidden" type="checkbox">
+
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+
+            <!-- メニュー -->
+            <nav class="nav_content">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="style.html">ホーム</a></li>
+                    <li class="nav_item"><a href="about.html">企業説明</a></li>
+                    <li class="nav_item"><a href="products.html">商品紹介</a></li>
+                    <li class="nav_item"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>魅力的な商品をあなたに</h1>
+            <p>最新のトレンド商品をお届けします。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 会社名. lumicraft.</p>
+    </footer>
+</body>
+
+</html>
